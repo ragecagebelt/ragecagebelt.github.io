@@ -1,0 +1,147 @@
+body {
+	margin: 0px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+.page-title {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	background: green;
+}
+
+.u-textAlign--center {
+	text-align: center;
+}
+
+.dataTable {
+	padding: 20px;
+}
+
+.bye {
+	opacity: .5;
+}
+
+.dataTable th{
+	padding: 10px;
+	font-size: 20px;
+}
+
+.container .row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.competitor {
+	margin: 20px;
+}
+
+.vs {
+	margin: auto;
+	top: 50%;
+	transform: translateY(-50%);
+	position:relative;
+}
+
+.logo-icon {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border-radius: 50px;
+	display: flex;
+	font-size: 35px;
+	align-items: center;
+	justify-content: center;
+}
+
+.table-belt {
+	margin: auto;
+}
+
+.season-week {
+	width: 80px;
+	height: 80px;
+	background-color: grey;
+	text-align: center;
+	font-size: 35px;
+}
+
+.yearIdx {
+	font-size: 30px;
+}
+
+
+
+
+.SR {
+	background-color: darkviolet;
+	color: gold;
+}
+
+.AF {
+	background-color: black;
+	color: yellow;
+}
+
+.CH {
+	background-color: red;
+	color: dimgrey;
+}
+
+.ZO {
+	background-color: navy;
+	color: yellow;
+}
+
+.ML {
+	background-color: yellow;
+	color: black
+}
+
+.LJ {
+	background-color:#002145;
+	color: lime;
+}
+
+.MW {
+	background-color: darkgreen;
+	color: yellow;
+}
+
+.AP {
+	background-color: maroon;
+	color: orange;
+}
+
+.HH {
+	background-color: white;
+	color: lightskyblue;
+}
+
+.AL {
+	background-color: orange;
+	color: brown;
+}
+
+.ZG {
+	background-color: black;
+	color: orange;
+}
+
+.DJ {
+	background-color: mediumpurple;
+	color: palegoldenrod;
+}
+
+.DH {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.ZB {
+	background-color: darkgreen;
+	color: orange;
+}
+
