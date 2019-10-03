@@ -4,13 +4,17 @@ body {
 	overflow-x: hidden;
 }
 
+.panel {
+	padding: 20px;
+}
+
 .page-title {
 	width: 100%;
 	height: auto;
 	padding: 20px;
 	background: green;
 	color: white;
-	font-size: 50px;
+	font-size: 25px;
 }
 
 .u-textAlign--center {
