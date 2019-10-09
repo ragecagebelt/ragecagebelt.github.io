@@ -21,6 +21,11 @@ var DATA = {
 				winner: "WOL",
 				loser: "GAR"
 			},
+			{
+				week: 5,
+				winner: "WOL",
+				loser: "HOG"
+			},
 		],
 		2018: [
 			{
@@ -189,8 +194,8 @@ var DATA = {
 	},
 	current: {
 		year: 2019,
-		week: 5,
+		week: 6,
 		champ: "WOL",
-		chal: "HOG"
+		chal: "DEV"
 	}
 };

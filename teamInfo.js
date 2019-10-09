@@ -27,7 +27,7 @@ var TEAM_INFO = {
 		name: "Mitch Wolf",
 		abbr: "MW",
 		old: false,
-		currName: "Kamara KumLately"
+		currName: "The Trashman"
 	},
 	"HOG": {
 		name: "Chris Hogan",
@@ -54,7 +54,7 @@ var TEAM_INFO = {
 		currName: "All About the Butt (fumble)"
 	},
 	"RAF": {
-		name: "Sean Raffeto",
+		name: "Sean Raffetto",
 		abbr: "SR",
 		old: false,
 		currName: "BEND THE KNEE JON SNOW"
