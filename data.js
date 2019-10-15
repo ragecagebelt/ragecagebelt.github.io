@@ -201,6 +201,7 @@ var DATA = {
 		year: 2019,
 		week: 7,
 		champ: "DEV",
-		chal: "FIS"
+		chal: "FIS",
+		flair: "I hear they say whoever wins the belt gets to wear the pants. Pressure's on &#128031;man"
 	}
 };

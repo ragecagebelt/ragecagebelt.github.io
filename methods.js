@@ -132,10 +132,9 @@ function parseData(){
 			
 			if (years[i] >= winData.year){
 				winData.year = years[i];
-				
-				if (j+1 > winData.week){
-					winData.week = j+1;
-				}
+				winData.week = j+1;			
+			} else if (j+1 > winData.week){
+				winData.week = j+1;
 			}
 			
 			
@@ -216,6 +215,10 @@ function setupCurrent() {
 	}
 	else {
 		blurbText += "<p>These two teams have never before faced in a title belt matchup.</p>"
+	}
+	
+	if (currMatchup.flair) {
+		blurbText += "<p>" + currMatchup.flair + "</p>";
 	}
 	
 	blurb.innerHTML = blurbText;
