@@ -31,6 +31,11 @@ var DATA = {
 				winner: "DEV",
 				loser: "WOL"
 			},
+			{
+				week: 7,
+				winner: "DEV",
+				loser: "FIS"
+			}
 		],
 		2018: [
 			{
@@ -199,9 +204,9 @@ var DATA = {
 	},
 	current: {
 		year: 2019,
-		week: 7,
+		week: 8,
 		champ: "DEV",
-		chal: "FIS",
-		flair: "I hear they say whoever wins the belt gets to wear the pants. Pressure's on &#128031;man"
+		chal: "PAR",
+		flair: "The winner of this matchup will have held the belt for the longest as an individual female in the league"
 	}
 };
