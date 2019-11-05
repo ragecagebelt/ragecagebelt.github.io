@@ -35,7 +35,17 @@ var DATA = {
 				week: 7,
 				winner: "DEV",
 				loser: "FIS"
-			}
+			},
+			{
+				week: 8,
+				winner: "PAR",
+				loser: "DEV"
+			},
+			{
+				week: 9,
+				winner: "PAR",
+				loser: "LAT"
+			},
 		],
 		2018: [
 			{
@@ -204,9 +214,9 @@ var DATA = {
 	},
 	current: {
 		year: 2019,
-		week: 8,
-		champ: "DEV",
-		chal: "PAR",
-		flair: "The winner of this matchup will have held the belt for the longest as an individual female in the league"
+		week: 9,
+		champ: "PAR",
+		chal: "DH",
+		flair: "With a win, Amber will tie for 3rd most weeks with the belt, while Dory/Heath will win for the first time"
 	}
 };

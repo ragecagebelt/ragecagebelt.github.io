@@ -93,6 +93,6 @@ var TEAM_INFO = {
 		name: "Amber Parsons",
 		abbr: "AP",
 		old: false,
-		currName: "Tyrod of Losing"
+		currName: "D At Full Chubb"
 	},
 }
