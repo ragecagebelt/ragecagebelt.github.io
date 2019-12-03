@@ -46,6 +46,26 @@ var DATA = {
 				winner: "PAR",
 				loser: "LAT"
 			},
+			{
+				week: 10,
+				winner: "PAR",
+				loser: "DH"
+			},
+			{
+				week: 11,
+				winner: "WOL",
+				loser: "PAR"
+			},
+			{
+				week: 12,
+				winner: "WOL",
+				loser: "OLI"
+			},
+			{
+				week: 13,
+				winner: "LER",
+				loser: "WOL"
+			},
 		],
 		2018: [
 			{
@@ -214,9 +234,9 @@ var DATA = {
 	},
 	current: {
 		year: 2019,
-		week: 9,
-		champ: "PAR",
-		chal: "DH",
-		flair: "With a win, Amber will tie for 3rd most weeks with the belt, while Dory/Heath will win for the first time"
+		week: 14,
+		champ: "LER",
+		chal: "FIS",
+		flair: "The 2019 Toilet Bowl plays for the belt."
 	}
 };
