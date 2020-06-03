@@ -95,4 +95,11 @@ var TEAM_INFO = {
 		old: false,
 		currName: "D At Full Chubb"
 	},
+	"BYE": {
+		name: "Bye",
+		abbr: "BYE",
+		old: false,
+		currName: "Bye Week"
+	},
+
 }

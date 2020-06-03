@@ -66,6 +66,21 @@ var DATA = {
 				winner: "LER",
 				loser: "WOL"
 			},
+			{
+				week: 14,
+				winner: "FIS",
+				loser: "LER"
+			},
+			{
+				week: 15,
+				winner: "GAR",
+				loser: "FIS"
+			},
+			{
+				week: 16,
+				winner: "GAR",
+				loser: "OLI"
+			}
 		],
 		2018: [
 			{
@@ -233,10 +248,10 @@ var DATA = {
 		],
 	},
 	current: {
-		year: 2019,
-		week: 14,
-		champ: "LER",
-		chal: "FIS",
-		flair: "The 2019 Toilet Bowl plays for the belt."
+		year: 2020,
+		week: 0,
+		champ: "GAR",
+		chal: "BYE",
+		flair: "Garcia currently holds the belt"
 	}
 };

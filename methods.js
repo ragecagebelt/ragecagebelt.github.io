@@ -1,6 +1,7 @@
 var TEAM_HISTORY_MAP = {
 	"DOR": "DH",
 	"MOR": "LJ",
+	"BYE": null,
 };
 
 var TEAM_DATA = {};
@@ -189,6 +190,8 @@ function setupCurrent() {
 	
 	let champTeam = TEAM_INFO[currMatchup.champ];
 	let chalTeam = TEAM_INFO[currMatchup.chal];
+
+	let isBye = currMatchup.chal === "BYE";
 	
 	chalName.innerText = chalTeam.name + " (" + chalTeam.currName + ")";
 	champName.innerText = champTeam.name + " (" + champTeam.currName + ")";
@@ -204,23 +207,27 @@ function setupCurrent() {
 	
 	let champData = TEAM_DATA[currMatchup.champ];
 	
-	blurbText += "<p>This week, " + champTeam.name + "'s " + champTeam.currName + " fight to maintain their " + champData.activeReign + " week reign against " + chalTeam.name + "'s " + chalTeam.currName + ".</p>";
+
+	if (!isBye) {
+		blurbText += "<p>This week, " + champTeam.name + "'s " + champTeam.currName + " fight to maintain their " + champData.activeReign + " week reign against " + chalTeam.name + "'s " + chalTeam.currName + ".</p>";
 	
 	
-	let matchupHistory = champData.history[currMatchup.chal];
-	if (matchupHistory) {
-		blurbText += "<p>" + champTeam.name + " currently has a record of " + matchupHistory.wins + "-" + matchupHistory.losses + " against " + chalTeam.name + " in title belt matches.</p>"; 
+		let matchupHistory = champData.history[currMatchup.chal];
+		if (matchupHistory) {
+			blurbText += "<p>" + champTeam.name + " currently has a record of " + matchupHistory.wins + "-" + matchupHistory.losses + " against " + chalTeam.name + " in title belt matches.</p>"; 
+			
+			blurbText += "<p>They most recently faced off in week " + matchupHistory.week + " of the " + matchupHistory.year + " season, where " + (matchupHistory.winner ? champTeam.name : chalTeam.name) + " was victorious.";
+		}
+		else {
+			blurbText += "<p>These two teams have never before faced in a title belt matchup.</p>"
+		}
 		
-		blurbText += "<p>They most recently faced off in week " + matchupHistory.week + " of the " + matchupHistory.year + " season, where " + (matchupHistory.winner ? champTeam.name : chalTeam.name) + " was victorious.";
-	}
-	else {
-		blurbText += "<p>These two teams have never before faced in a title belt matchup.</p>"
 	}
 	
 	if (currMatchup.flair) {
 		blurbText += "<p>" + currMatchup.flair + "</p>";
 	}
-	
+
 	blurb.innerHTML = blurbText;
 }
 
