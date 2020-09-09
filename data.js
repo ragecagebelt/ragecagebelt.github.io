@@ -249,9 +249,9 @@ var DATA = {
 	},
 	current: {
 		year: 2020,
-		week: 0,
+		week: 1,
 		champ: "GAR",
-		chal: "BYE",
-		flair: "Garcia currently holds the belt"
+		chal: "LAK",
+		flair: "Former full-time comissioner Zack Garcia's Seattle Swabbies currently hold the belt from the end of Season 2019. He faces fresh faced fantasy footballer John Lake's NPM, playing in his first title belt game (and first game as a solo owner). It's GIF Magic VS Write-Ups. WELCOME BACK TO RAGE CAGE SEATTLE"
 	}
 };

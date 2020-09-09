@@ -1,7 +1,7 @@
 var TEAM_HISTORY_MAP = {
 	"DOR": "DH",
-	"MOR": "LJ",
-	"BYE": null,
+	"LJ": "MOR",
+	"BYE": "BYE",
 };
 
 var TEAM_DATA = {};

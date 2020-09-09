@@ -153,3 +153,13 @@ body {
 	color: orange;
 }
 
+.JL {
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(18,87,64,1) 75%);
+	background-color: black;
+	color: white;
+}
+
+.LM {
+	background-color: #F84C1E;
+	color: #232D4B;
+}

@@ -2,14 +2,20 @@ var TEAM_INFO = {
 	"LJ": {
 		name: "Laura & John",
 		abbr: "LJ",
-		old: false,
+		old: true,
 		currName: "Awkward Turtles"
+	},
+	"LAK": {
+		name: "John Lake",
+		abbr: "JL",
+		old: true,
+		currName: "Neil Patrick Mahomes"
 	},
 	"MOR": {
 		name: "Laura Morgan",
 		abbr: "LM",
-		old: true,
-		currName: "WILLLLSOOOOONNNN"
+		old: false,
+		currName: "Awkward Turtles"
 	},
 	"DOR": {
 		name: "Dory Patterson",
@@ -27,13 +33,13 @@ var TEAM_INFO = {
 		name: "Mitch Wolf",
 		abbr: "MW",
 		old: false,
-		currName: "The Trashman"
+		currName: "Rex Grossman Fan Club"
 	},
 	"HOG": {
 		name: "Chris Hogan",
 		abbr: "CH",
 		old: false,
-		currName: "Giselle JizzyBells"
+		currName: "Baequon Barkley"
 	},
 	"BUR": {
 		name: "Zach Burstain",
@@ -45,7 +51,7 @@ var TEAM_INFO = {
 		name: "Zack Garcia",
 		abbr: "ZG",
 		old: false,
-		currName: "Lock Pick"
+		currName: "Seattle Swabbies"
 	},
 	"OLI": {
 		name: "Zach Oligschlaegar",
@@ -96,7 +102,7 @@ var TEAM_INFO = {
 		currName: "D At Full Chubb"
 	},
 	"BYE": {
-		name: "Bye",
+		name: "Bye Week",
 		abbr: "BYE",
 		old: false,
 		currName: "Bye Week"
