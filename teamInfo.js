@@ -3,13 +3,13 @@ var TEAM_INFO = {
 		name: "Laura & John",
 		abbr: "LJ",
 		old: true,
-		currName: "Awkward Turtles"
+		currName: "And Peggy"
 	},
 	"LAK": {
 		name: "John Lake",
 		abbr: "JL",
 		old: true,
-		currName: "Neil Patrick Mahomes"
+		currName: "The Schuyler Blitzers"
 	},
 	"MOR": {
 		name: "Laura Morgan",
@@ -57,7 +57,7 @@ var TEAM_INFO = {
 		name: "Zach Oligschlaegar",
 		abbr: "ZO",
 		old: false,
-		currName: "All About the Butt (fumble)"
+		currName: "*cough* *cough*"
 	},
 	"RAF": {
 		name: "Sean Raffetto",
@@ -75,7 +75,7 @@ var TEAM_INFO = {
 		name: "Andrew Latham",
 		abbr: "AL",
 		old: false,
-		currName: "Bilderberg Illuminati"
+		currName: "Sons of Liberty"
 	},
 	"DEV": {
 		name: "Devon Jagosh",
