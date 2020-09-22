@@ -1,5 +1,17 @@
 var DATA = {
 	history: {
+		2020: [
+			{
+				week: 1,
+				winner: "LAK",
+				loser: "GAR",
+			},
+			{
+				week: 2,
+				winner: "LAK",
+				loser: "OLI",
+			},
+		],
 		2019: [
 			{
 				week: 1,
@@ -249,9 +261,9 @@ var DATA = {
 	},
 	current: {
 		year: 2020,
-		week: 1,
-		champ: "GAR",
-		chal: "LAK",
-		flair: "Former full-time comissioner Zack Garcia's Seattle Swabbies currently hold the belt from the end of Season 2019. He faces fresh faced fantasy footballer John Lake's Schuyler Blitzers, playing in his first title belt game (and first game as a solo owner). It's GIF Magic VS Write-Ups. WELCOME BACK TO RAGE CAGE SEATTLE"
+		week: 3,
+		champ: "LAK",
+		chal: "LAT",
+		flair: "HAMILTON DUEL #2 is 2020's Title Belt Match #3! John continues his belt streak as a solo captain, while Andrew seeks to reclaim his prize for the first time since winning the original championship. Raise a glass to freedom, to the groom, to the bride, to the union, and to the revolution."
 	}
 };
