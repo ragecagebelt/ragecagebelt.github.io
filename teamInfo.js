@@ -3,7 +3,7 @@ var TEAM_INFO = {
 		name: "Laura & John",
 		abbr: "LJ",
 		old: true,
-		currName: "And Peggy"
+		currName: "Awkward Turtles"
 	},
 	"LAK": {
 		name: "John Lake",
@@ -15,7 +15,7 @@ var TEAM_INFO = {
 		name: "Laura Morgan",
 		abbr: "LM",
 		old: false,
-		currName: "Awkward Turtles"
+		currName: "And Peggy"
 	},
 	"DOR": {
 		name: "Dory Patterson",

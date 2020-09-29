@@ -11,6 +11,11 @@ var DATA = {
 				winner: "LAK",
 				loser: "OLI",
 			},
+			{
+				week: 3,
+				winner: "LAK",
+				loser: "LAT",
+			},
 		],
 		2019: [
 			{
@@ -263,7 +268,7 @@ var DATA = {
 		year: 2020,
 		week: 3,
 		champ: "LAK",
-		chal: "LAT",
-		flair: "HAMILTON DUEL #2 is 2020's Title Belt Match #3! John continues his belt streak as a solo captain, while Andrew seeks to reclaim his prize for the first time since winning the original championship. Raise a glass to freedom, to the groom, to the bride, to the union, and to the revolution."
+		chal: "MOR",
+		flair: "HAMILTON DUEL #3 is 2020's Title Belt Match #4! Shades of a Ravens/Browns or AFC Wimbledon/Milton Keynes Dons FC as John faces Laura and takes on his former team. With a win, John ties as the individual owner to hold the belt for the most weeks."
 	}
 };
