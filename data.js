@@ -266,7 +266,7 @@ var DATA = {
 	},
 	current: {
 		year: 2020,
-		week: 3,
+		week: 4,
 		champ: "LAK",
 		chal: "MOR",
 		flair: "HAMILTON DUEL #3 is 2020's Title Belt Match #4! Shades of a Ravens/Browns or AFC Wimbledon/Milton Keynes Dons FC as John faces Laura and takes on his former team. With a win, John ties as the individual owner to hold the belt for the most weeks."
