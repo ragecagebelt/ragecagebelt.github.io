@@ -16,6 +16,11 @@ var DATA = {
 				winner: "LAK",
 				loser: "LAT",
 			},
+			{
+				week: 4,
+				winner: "MOR",
+				loser: "LAK",
+			},
 		],
 		2019: [
 			{
@@ -267,8 +272,8 @@ var DATA = {
 	current: {
 		year: 2020,
 		week: 4,
-		champ: "LAK",
-		chal: "MOR",
-		flair: "HAMILTON DUEL #3 is 2020's Title Belt Match #4! Shades of a Ravens/Browns or AFC Wimbledon/Milton Keynes Dons FC as John faces Laura and takes on his former team. With a win, John ties as the individual owner to hold the belt for the most weeks."
+		champ: "MOR",
+		chal: "DEV",
+		flair: "This is interestingly the first ever title belt match ever played between two female sole owners!"
 	}
 };
