@@ -271,7 +271,7 @@ var DATA = {
 	},
 	current: {
 		year: 2020,
-		week: 4,
+		week: 5,
 		champ: "MOR",
 		chal: "DEV",
 		flair: "This is interestingly the first ever title belt match ever played between two female sole owners!"
