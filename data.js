@@ -21,6 +21,11 @@ var DATA = {
 				winner: "MOR",
 				loser: "LAK",
 			},
+			{
+				week: 5,
+				winner: "MOR",
+				loser: "DEV",
+			},
 		],
 		2019: [
 			{
@@ -271,9 +276,9 @@ var DATA = {
 	},
 	current: {
 		year: 2020,
-		week: 5,
+		week: 6,
 		champ: "MOR",
-		chal: "DEV",
-		flair: "This is interestingly the first ever title belt match ever played between two female sole owners!"
+		chal: "LER",
+		flair: "Fun fact, the previous occurrence of this matchup was the original appearance of a FB Chat photoshopped taunt"
 	}
 };
