@@ -27,9 +27,14 @@ var DATA = {
 				loser: "DEV",
 			},
 			{
-				week: 5,
+				week: 6,
 				winner: "LER",
 				loser: "MOR",
+			},
+			{
+				week: 7,
+				winner: "LAK",
+				loser: "LER",
 			},
 		],
 		2019: [
@@ -282,8 +287,8 @@ var DATA = {
 	current: {
 		year: 2020,
 		week: 7,
-		champ: "LER",
-		chal: "LAK",
-		flair: "Can Matt hold on against both previous Turtles or will the ghost of a Dorota be called upon to take the belt back"
+		champ: "LAK",
+		chal: "FIS",
+		flair: "What's a Fis(c)h to a Lake? What's a God to a Non-Believer?"
 	}
 };
