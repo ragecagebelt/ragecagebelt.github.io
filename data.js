@@ -36,6 +36,11 @@ var DATA = {
 				winner: "LAK",
 				loser: "LER",
 			},
+			{
+				week: 8,
+				winner: "FIS",
+				loser: "LAK",
+			},
 		],
 		2019: [
 			{
@@ -286,9 +291,9 @@ var DATA = {
 	},
 	current: {
 		year: 2020,
-		week: 7,
-		champ: "LAK",
-		chal: "FIS",
-		flair: "What's a Fis(c)h to a Lake? What's a God to a Non-Believer?"
+		week: 8,
+		champ: "FIS",
+		chal: "DEV",
+		flair: "Battle of the exes for the belt #2"
 	}
 };
