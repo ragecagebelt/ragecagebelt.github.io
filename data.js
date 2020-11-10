@@ -41,6 +41,11 @@ var DATA = {
 				winner: "FIS",
 				loser: "LAK",
 			},
+			{
+				week: 9,
+				winner: "FIS",
+				loser: "DEV",
+			},
 		],
 		2019: [
 			{
@@ -291,9 +296,9 @@ var DATA = {
 	},
 	current: {
 		year: 2020,
-		week: 8,
+		week: 10,
 		champ: "FIS",
-		chal: "DEV",
-		flair: "Battle of the exes for the belt #2"
+		chal: "LER",
+		flair: "It's an ALL IOWA ALL THE TIME MATCHUP"
 	}
 };
