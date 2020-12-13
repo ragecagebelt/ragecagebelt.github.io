@@ -46,6 +46,26 @@ var DATA = {
 				winner: "FIS",
 				loser: "DEV",
 			},
+			{
+				week: 10,
+				winner: "FIS",
+				loser: "LER",
+			},
+			{
+				week: 11,
+				winner: "FIS",
+				loser: "HOG",
+			},
+			{
+				week: 12,
+				winner: "FIS",
+				loser: "BUR",
+			},
+			{
+				week: 13,
+				winner: "WOL",
+				loser: "FIS",
+			},
 		],
 		2019: [
 			{
@@ -296,9 +316,9 @@ var DATA = {
 	},
 	current: {
 		year: 2020,
-		week: 10,
-		champ: "FIS",
-		chal: "LER",
-		flair: "It's an ALL IOWA ALL THE TIME MATCHUP"
+		week: 14,
+		champ: "WOL",
+		chal: "BYE",
+		flair: "A bye?"
 	}
 };
