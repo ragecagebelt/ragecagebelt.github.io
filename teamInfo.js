@@ -8,8 +8,8 @@ var TEAM_INFO = {
 	"LAK": {
 		name: "John Lake",
 		abbr: "JL",
-		old: true,
-		currName: "The Schuyler Blitzers"
+		old: false,
+		currName: "AFC Richmond"
 	},
 	"MOR": {
 		name: "Laura Morgan",
@@ -33,12 +33,12 @@ var TEAM_INFO = {
 		name: "Mitch Wolf",
 		abbr: "MW",
 		old: false,
-		currName: "Rex Grossman Fan Club"
+		currName: "Sloppy Steaks"
 	},
 	"HOG": {
 		name: "Chris Hogan",
 		abbr: "CH",
-		old: false,
+		old: true,
 		currName: "Baequon Barkley"
 	},
 	"BUR": {
@@ -51,13 +51,13 @@ var TEAM_INFO = {
 		name: "Zack Garcia",
 		abbr: "ZG",
 		old: false,
-		currName: "Seattle Swabbies"
+		currName: "Bronco Boosters"
 	},
 	"OLI": {
 		name: "Zach Oligschlaegar",
 		abbr: "ZO",
 		old: false,
-		currName: "*cough* *cough*"
+		currName: "Judge Jeudy"
 	},
 	"RAF": {
 		name: "Sean Raffetto",
@@ -81,7 +81,7 @@ var TEAM_INFO = {
 		name: "Devon Jagosh",
 		abbr: "DJ",
 		old: false,
-		currName: "Dig dug Jagosh"
+		currName: "Edgar Allen Buffalo"
 	},
 	"FIS": {
 		name: "Alex Fischman",
@@ -107,5 +107,10 @@ var TEAM_INFO = {
 		old: false,
 		currName: "Bye Week"
 	},
-
+	"VAN": {
+		name: "Vanessa Oligschlaegar",
+		abbr: "VO",
+		old: false,
+		currName: "More Clueless than the Jets"
+	},
 }

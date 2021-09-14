@@ -163,3 +163,9 @@ body {
 	background-color: #F84C1E;
 	color: #232D4B;
 }
+
+.VO {
+	background: linear-gradient(0deg, darkgreen 0%, darkblue 75%);
+	background-color:darkgreen;
+	color: yellow;
+}

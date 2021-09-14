@@ -1,5 +1,12 @@
 var DATA = {
 	history: {
+		2021: [
+			{
+				week: 1,
+				winner: "LAT",
+				loser: "FIS",
+			},
+		],
 		2020: [
 			{
 				week: 1,
@@ -65,6 +72,21 @@ var DATA = {
 				week: 13,
 				winner: "WOL",
 				loser: "FIS",
+			},
+			{
+				week: 14,
+				winner: "WOL",
+				loser: "BYE",
+			},
+			{
+				week: 15,
+				winner: "WOL",
+				loser: "GAR",
+			},
+			{
+				week: 16,
+				winner: "FIS",
+				loser: "WOL",
 			},
 		],
 		2019: [
@@ -315,10 +337,10 @@ var DATA = {
 		],
 	},
 	current: {
-		year: 2020,
-		week: 14,
-		champ: "WOL",
-		chal: "BYE",
-		flair: "A bye?"
+		year: 2021,
+		week: 2,
+		champ: "LAT",
+		chal: "DEV",
+		flair: "Andrew vs Devon"
 	}
 };
