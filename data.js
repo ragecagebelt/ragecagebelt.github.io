@@ -6,6 +6,21 @@ var DATA = {
 				winner: "LAT",
 				loser: "FIS",
 			},
+			{
+				week: 2,
+				winner: "LAT",
+				loser: "DEV",
+			},
+			{
+				week: 3,
+				winner: "LAT",
+				loser: "GAR",
+			},
+			{
+				week: 4,
+				winner: "BUR",
+				loser: "LAT",
+			},
 		],
 		2020: [
 			{
@@ -338,9 +353,9 @@ var DATA = {
 	},
 	current: {
 		year: 2021,
-		week: 2,
-		champ: "LAT",
-		chal: "DEV",
-		flair: "Andrew vs Devon"
+		week: 5,
+		champ: "BUR",
+		chal: "GAR",
+		flair: "𝕿𝖊𝖒𝖕𝖙𝖊𝖉, 𝖆𝖓𝖉 𝖋𝖆𝖑𝖑𝖊𝖓, 𝖆𝖓𝖉 𝖍𝖎𝖘 𝖉𝖔𝖔𝖒 𝖒𝖆𝖉𝖊 𝖘𝖚𝖗𝖊..."
 	}
 };
