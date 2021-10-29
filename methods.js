@@ -1,5 +1,5 @@
 var TEAM_HISTORY_MAP = {
-	"DOR": "DH",
+	"DH": "DOR",
 	"LJ": "MOR",
 	"BYE": "BYE",
 };

@@ -21,6 +21,21 @@ var DATA = {
 				winner: "BUR",
 				loser: "LAT",
 			},
+			{
+				week: 5,
+				winner: "GAR",
+				loser: "BUR",
+			},
+			{
+				week: 6,
+				winner: "GAR",
+				loser: "LAT",
+			},
+			{
+				week: 7,
+				winner: "WOL",
+				loser: "GAR",
+			},
 		],
 		2020: [
 			{
@@ -353,9 +368,9 @@ var DATA = {
 	},
 	current: {
 		year: 2021,
-		week: 5,
-		champ: "BUR",
-		chal: "GAR",
+		week: 8,
+		champ: "WOL",
+		chal: "LAK",
 		flair: "𝕿𝖊𝖒𝖕𝖙𝖊𝖉, 𝖆𝖓𝖉 𝖋𝖆𝖑𝖑𝖊𝖓, 𝖆𝖓𝖉 𝖍𝖎𝖘 𝖉𝖔𝖔𝖒 𝖒𝖆𝖉𝖊 𝖘𝖚𝖗𝖊..."
 	}
 };

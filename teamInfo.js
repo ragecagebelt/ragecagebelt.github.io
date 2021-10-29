@@ -20,13 +20,13 @@ var TEAM_INFO = {
 	"DOR": {
 		name: "Dory Patterson",
 		abbr: "DP",
-		old: true,
-		currName: "Double Stuffed Dory Oreo"
+		old: false,
+		currName: "Not in Seattle Hory"
 	},
 	"DH": {
 		name: "Dory & Heath",
 		abbr: "DH",
-		old: false,
+		old: true,
 		currName: "Not in Seattle Hory"
 	},
 	"WOL": {
