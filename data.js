@@ -29,12 +29,42 @@ var DATA = {
 			{
 				week: 6,
 				winner: "GAR",
-				loser: "LAT",
+				loser: "LER",
 			},
 			{
 				week: 7,
 				winner: "WOL",
 				loser: "GAR",
+			},
+			{
+				week: 8,
+				winner: "LAK",
+				loser: "WOL",
+			},
+			{
+				week: 9,
+				winner: "GAR",
+				loser: "LAK",
+			},
+			{
+				week: 10,
+				winner: "GAR",
+				loser: "FIS",
+			},
+			{
+				week: 11,
+				winner: "GAR",
+				loser: "MOR",
+			},
+			{
+				week: 12,
+				winner: "GAR",
+				loser: "DEV",
+			},
+			{
+				week: 13,
+				winner: "GAR",
+				loser: "VAN",
 			},
 		],
 		2020: [
@@ -368,9 +398,9 @@ var DATA = {
 	},
 	current: {
 		year: 2021,
-		week: 8,
-		champ: "WOL",
-		chal: "LAK",
-		flair: "𝕿𝖊𝖒𝖕𝖙𝖊𝖉, 𝖆𝖓𝖉 𝖋𝖆𝖑𝖑𝖊𝖓, 𝖆𝖓𝖉 𝖍𝖎𝖘 𝖉𝖔𝖔𝖒 𝖒𝖆𝖉𝖊 𝖘𝖚𝖗𝖊..."
+		week: 14,
+		champ: "GAR",
+		chal: "LAT",
+		flair: "𝖂𝖍𝖊𝖓 𝖍𝖊 𝖎𝖘 𝖘𝖚𝖓𝖐𝖊𝖓 𝖉𝖊𝖆𝖉 𝖆𝖒𝖔𝖓𝖌 𝖙𝖍𝖊 𝖘𝖎𝖓𝖘..."
 	}
 };
