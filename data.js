@@ -1,5 +1,12 @@
 var DATA = {
 	history: {
+		2022: [
+			{
+				week: 1,
+				winner: "MOR",
+				loser: "GAR",
+			},
+		],
 		2021: [
 			{
 				week: 1,
@@ -65,6 +72,26 @@ var DATA = {
 				week: 13,
 				winner: "GAR",
 				loser: "VAN",
+			},
+			{
+				week: 14,
+				winner: "LAT",
+				loser: "GAR",
+			},
+			{
+				week: 15,
+				winner: "LAT",
+				loser: "BYE",
+			},
+			{
+				week: 16,
+				winner: "LAT",
+				loser: "MOR",
+			},
+			{
+				week: 17,
+				winner: "GAR",
+				loser: "LAT",
 			},
 		],
 		2020: [
@@ -397,10 +424,10 @@ var DATA = {
 		],
 	},
 	current: {
-		year: 2021,
-		week: 14,
-		champ: "GAR",
-		chal: "LAT",
-		flair: "𝖂𝖍𝖊𝖓 𝖍𝖊 𝖎𝖘 𝖘𝖚𝖓𝖐𝖊𝖓 𝖉𝖊𝖆𝖉 𝖆𝖒𝖔𝖓𝖌 𝖙𝖍𝖊 𝖘𝖎𝖓𝖘..."
+		year: 2022,
+		week: 2,
+		champ: "MOR",
+		chal: "OLI",
+		flair: "First matchup since Zach won the championship in 2017"
 	}
 };
