@@ -9,19 +9,19 @@ var TEAM_INFO = {
 		name: "John Lake",
 		abbr: "JL",
 		old: false,
-		currName: "AFC Richmond"
+		currName: "Solid Sneks"
 	},
 	"MOR": {
 		name: "Laura Morgan",
 		abbr: "LM",
 		old: false,
-		currName: "And Peggy"
+		currName: "Derelicte Henry"
 	},
 	"DOR": {
 		name: "Dory Patterson",
 		abbr: "DP",
 		old: false,
-		currName: "Not in Seattle Hory"
+		currName: "Derrick Henry's Turd"
 	},
 	"DH": {
 		name: "Dory & Heath",
@@ -33,7 +33,7 @@ var TEAM_INFO = {
 		name: "Mitch Wolf",
 		abbr: "MW",
 		old: false,
-		currName: "Sloppy Steaks"
+		currName: "South Texas Titans"
 	},
 	"HOG": {
 		name: "Chris Hogan",
@@ -51,13 +51,13 @@ var TEAM_INFO = {
 		name: "Zack Garcia",
 		abbr: "ZG",
 		old: false,
-		currName: "Bronco Boosters"
+		currName: "San Diego Madres"
 	},
 	"OLI": {
 		name: "Zach Oligschlaegar",
 		abbr: "ZO",
 		old: false,
-		currName: "Judge Jeudy"
+		currName: "Cant spell ALlen w/o An*l"
 	},
 	"RAF": {
 		name: "Sean Raffetto",
@@ -75,19 +75,19 @@ var TEAM_INFO = {
 		name: "Andrew Latham",
 		abbr: "AL",
 		old: false,
-		currName: "Sons of Liberty"
+		currName: "House of the Trogdor"
 	},
 	"DEV": {
 		name: "Devon Jagosh",
 		abbr: "DJ",
 		old: false,
-		currName: "Edgar Allen Buffalo"
+		currName: "Brady Back Ribs"
 	},
 	"FIS": {
 		name: "Alex Fischman",
 		abbr: "AF",
 		old: false,
-		currName: "T.C. Williams Titans"
+		currName: "Dillon Panthers"
 	},
 	"HEA": {
 		name: "Heath Hudgins",
@@ -99,7 +99,7 @@ var TEAM_INFO = {
 		name: "Amber Parsons",
 		abbr: "AP",
 		old: false,
-		currName: "D At Full Chubb"
+		currName: "MISTER MALF RALHP 'S PALS"
 	},
 	"BYE": {
 		name: "Bye Week",
@@ -111,6 +111,6 @@ var TEAM_INFO = {
 		name: "Vanessa Oligschlaegar",
 		abbr: "VO",
 		old: false,
-		currName: "More Clueless than the Jets"
+		currName: "Everything Hurts"
 	},
 }

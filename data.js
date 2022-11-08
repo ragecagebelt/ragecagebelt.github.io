@@ -6,6 +6,46 @@ var DATA = {
 				winner: "MOR",
 				loser: "GAR",
 			},
+			{
+				week: 2,
+				winner: "MOR",
+				loser: "OLI",
+			},
+			{
+				week: 3,
+				winner: "MOR",
+				loser: "PAR",
+			},
+			{
+				week: 4,
+				winner: "MOR",
+				loser: "VAN",
+			},
+			{
+				week: 5,
+				winner: "DEV",
+				loser: "MOR",
+			},
+			{
+				week: 6,
+				winner: "DEV",
+				loser: "DOR",
+			},
+			{
+				week: 7,
+				winner: "GAR",
+				loser: "DEV",
+			},
+			{
+				week: 8,
+				winner: "WOL",
+				loser: "GAR",
+			},
+			{
+				week: 9,
+				winner: "WOL",
+				loser: "OLI",
+			},
 		],
 		2021: [
 			{
@@ -425,9 +465,9 @@ var DATA = {
 	},
 	current: {
 		year: 2022,
-		week: 2,
-		champ: "MOR",
-		chal: "OLI",
-		flair: "First matchup since Zach won the championship in 2017"
+		week: 10,
+		champ: "WOL",
+		chal: "PAR",
+		flair: "Go Devnver."
 	}
 };
