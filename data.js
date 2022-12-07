@@ -46,6 +46,26 @@ var DATA = {
 				winner: "WOL",
 				loser: "OLI",
 			},
+			{
+				week: 10,
+				winner: "PAR",
+				loser: "WOL",
+			},
+			{
+				week: 11,
+				winner: "PAR",
+				loser: "FIS",
+			},
+			{
+				week: 12,
+				winner: "LAT",
+				loser: "PAR",
+			},
+			{
+				week: 13,
+				winner: "LAT",
+				loser: "VAN",
+			},
 		],
 		2021: [
 			{
@@ -465,9 +485,9 @@ var DATA = {
 	},
 	current: {
 		year: 2022,
-		week: 10,
-		champ: "WOL",
-		chal: "PAR",
-		flair: "Go Devnver."
+		week: 14,
+		champ: "LAT",
+		chal: "DEV",
+		flair: "The belt has made the playoffs and thus the creator of this website says meh."
 	}
 };
