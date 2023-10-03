@@ -9,19 +9,19 @@ var TEAM_INFO = {
 		name: "John Lake",
 		abbr: "JL",
 		old: false,
-		currName: "Solid Sneks"
+		currName: "L(⚙ - ⚙)-o-(===-"
 	},
 	"MOR": {
 		name: "Laura Morgan",
 		abbr: "LM",
 		old: false,
-		currName: "Derelicte Henry"
+		currName: "Slim Pickens"
 	},
 	"DOR": {
 		name: "Dory Patterson",
 		abbr: "DP",
 		old: false,
-		currName: "Derrick Henry's Turd"
+		currName: "Futbol Is Life"
 	},
 	"DH": {
 		name: "Dory & Heath",
@@ -33,7 +33,7 @@ var TEAM_INFO = {
 		name: "Mitch Wolf",
 		abbr: "MW",
 		old: false,
-		currName: "South Texas Titans"
+		currName: "B1G TURD C@CKS"
 	},
 	"HOG": {
 		name: "Chris Hogan",
@@ -45,19 +45,19 @@ var TEAM_INFO = {
 		name: "Zach Burstain",
 		abbr: "ZB",
 		old: false,
-		currName: "Care Bear Captain Planet"
+		currName: "The IRL Father"
 	},
 	"GAR": {
 		name: "Zack Garcia",
 		abbr: "ZG",
 		old: false,
-		currName: "San Diego Madres"
+		currName: "Sad Charger Noises"
 	},
 	"OLI": {
 		name: "Zach Oligschlaegar",
 		abbr: "ZO",
 		old: false,
-		currName: "Cant spell ALlen w/o An*l"
+		currName: "Chasing D*cker"
 	},
 	"RAF": {
 		name: "Sean Raffetto",
@@ -75,13 +75,13 @@ var TEAM_INFO = {
 		name: "Andrew Latham",
 		abbr: "AL",
 		old: false,
-		currName: "House of the Trogdor"
+		currName: "Sassy chicken enthusiasts"
 	},
 	"DEV": {
 		name: "Devon Jagosh",
 		abbr: "DJ",
 		old: false,
-		currName: "Brady Back Ribs"
+		currName: "Mighty Joe Young"
 	},
 	"FIS": {
 		name: "Alex Fischman",
@@ -111,6 +111,6 @@ var TEAM_INFO = {
 		name: "Vanessa Oligschlaegar",
 		abbr: "VO",
 		old: false,
-		currName: "Everything Hurts"
+		currName: "(Taylor's Version)"
 	},
 }

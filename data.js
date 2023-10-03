@@ -1,5 +1,27 @@
 var DATA = {
 	history: {
+		2023: [
+			{
+				week: 1,
+				winner: "LAT",
+				loser: "BUR",
+			},
+			{
+				week: 2,
+				winner: "WOL",
+				loser: "LAT",
+			},
+			{
+				week: 3,
+				winner: "WOL",
+				loser: "DEV",
+			},
+			{
+				week: 4,
+				winner: "PAR",
+				loser: "WOL",
+			},
+		],
 		2022: [
 			{
 				week: 1,
@@ -65,6 +87,26 @@ var DATA = {
 				week: 13,
 				winner: "LAT",
 				loser: "VAN",
+			},
+			{
+				week: 14,
+				winner: "LAT",
+				loser: "DEV",
+			},
+			{
+				week: 15,
+				winner: "LAT",
+				loser: "BYE",
+			},
+			{
+				week: 16,
+				winner: "LAT",
+				loser: "WOL",
+			},
+			{
+				week: 17,
+				winner: "LAT",
+				loser: "MOR",
 			},
 		],
 		2021: [
@@ -484,10 +526,10 @@ var DATA = {
 		],
 	},
 	current: {
-		year: 2022,
-		week: 14,
-		champ: "LAT",
-		chal: "DEV",
-		flair: "The belt has made the playoffs and thus the creator of this website says meh."
+		year: 2023,
+		week: 5,
+		champ: "PAR",
+		chal: "LAT",
+		flair: "i mean andrew still has the physical one"
 	}
 };

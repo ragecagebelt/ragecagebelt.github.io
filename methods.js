@@ -28,6 +28,8 @@ function createWinnerGrid(){
 				history: {},
 				week: 0,
 				year: 0,
+				lweek: 0,
+				lyear: 0
 			};
 		}
 		
@@ -78,6 +80,10 @@ function createWinnerGrid(){
 		let year = document.createElement("TD");
 		year.innerHTML = (teamData.year > 0) ? ("Week " + teamData.week + ", " + teamData.year) : "---";
 		row.appendChild(year);
+
+		let lyear = document.createElement("TD");
+		lyear.innerHTML = (teamData.lyear > 0) ? ("Week " + teamData.lweek + ", " + teamData.lyear) : "---";
+		row.appendChild(lyear);
 		
 		table.appendChild(row);
 	}
@@ -137,6 +143,17 @@ function parseData(){
 			} else if (j+1 > winData.week){
 				winData.week = j+1;
 			}
+
+			let lossData = TEAM_DATA[loser];
+
+			if (loser != 'BYE') {
+				if (years[i] >= lossData.lyear){
+					lossData.lyear = years[i];
+					lossData.lweek = j+1;			
+				} else if (j+1 > lossData.lweek){
+					lossData.lweek = j+1;
+				}
+			}
 			
 			
 			
@@ -152,12 +169,12 @@ function parseData(){
 					week: j + 1,
 					year: years[i],
 					winner: true,
-					wins: (winHistory ? winHistory.wins++ : 1),
+					wins: (winHistory ? winHistory.wins + 1 : 1),
 					losses: (winHistory ? winHistory.losses : 0)
 				}
 				
 				
-				let lossData = TEAM_DATA[loser];
+				
 				lossData.losses++;
 				let lossHistory = lossData.history[winner];
 				lossData.history[winner] = {
@@ -165,7 +182,7 @@ function parseData(){
 					year: years[i],
 					winner: false,
 					wins: (lossHistory ? lossHistory.wins : 0),
-					losses: (lossHistory ? lossHistory.losses++ : 1)
+					losses: (lossHistory ? lossHistory.losses + 1 : 1)
 				}
 			}
 		}
@@ -253,6 +270,8 @@ function initializeData(team_key){
 		history: {},
 		week: 0,
 		year: 0,
+		lweek: 0,
+		lyear: 0
 	}
 }
 
