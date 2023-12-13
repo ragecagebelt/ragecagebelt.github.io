@@ -21,6 +21,56 @@ var DATA = {
 				winner: "PAR",
 				loser: "WOL",
 			},
+			{
+				week: 5,
+				winner: "LAT",
+				loser: "WOL",
+			},
+			{
+				week: 6,
+				winner: "OLI",
+				loser: "LAT",
+			},
+			{
+				week: 7,
+				winner: "OLI",
+				loser: "DEV",
+			},
+			{
+				week: 8,
+				winner: "OLI",
+				loser: "PAR",
+			},			
+			{
+				week: 9,
+				winner: "OLI",
+				loser: "FIS",
+			},
+			{
+				week: 10,
+				winner: "LAK",
+				loser: "OLI",
+			},
+			{
+				week: 11,
+				winner: "FIS",
+				loser: "LAK",
+			},
+			{
+				week: 12,
+				winner: "FIS",
+				loser: "WOL",
+			},
+			{
+				week: 13,
+				winner: "FIS",
+				loser: "MOR",
+			},
+			{
+				week: 14,
+				winner: "LAT",
+				loser: "FIS",
+			},
 		],
 		2022: [
 			{
@@ -527,9 +577,9 @@ var DATA = {
 	},
 	current: {
 		year: 2023,
-		week: 5,
-		champ: "PAR",
-		chal: "LAT",
-		flair: "i mean andrew still has the physical one"
+		week: 15,
+		champ: "LAT",
+		chal: "PAR",
+		flair: "lets see who is the one true denver"
 	}
 };
